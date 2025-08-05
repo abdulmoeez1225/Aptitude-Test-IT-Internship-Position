@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ag-grid-community": "^34.1.0",
+    "ag-grid-react": "^34.1.0",
+    "mysql2": "^3.14.3"
+  }
+}
