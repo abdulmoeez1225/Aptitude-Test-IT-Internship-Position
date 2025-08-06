@@ -1,7 +1,8 @@
+import React from 'react';
 import { AppBar, Toolbar, Typography, Box } from "@mui/material";
 import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: "#0066b1" }}>
       <Toolbar>

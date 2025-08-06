@@ -1,5 +1,21 @@
 {
+  "name": "bmw-database-import",
+  "version": "1.0.0",
+  "description": "Database import script for BMW electric car data",
+  "scripts": {
+    "import": "ts-node importData.ts",
+    "import:dev": "ts-node --transpile-only importData.ts",
+    "compile": "tsc importData.ts",
+    "build": "tsc"
+  },
   "dependencies": {
-    "csv-parser": "^3.2.0"
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.1",
+    "mysql2": "^3.14.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
